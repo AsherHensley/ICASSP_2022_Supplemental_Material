@@ -97,6 +97,7 @@ subplot(122)
 plot(G(:,end),'k')
 grid on
 set(gcf,'outerposition',[441   574   560   302])
+ylim([0,2])
 
 % Print Average Error Gain
 fprintf(1,'%s\t%s\n','log2m','Error Gain')
