@@ -31,6 +31,7 @@ agg_CRLB = zeros(nsamples,length(log2m_list));
 hw = waitbar(0,'...');
 
 % Loop Over Number of Active Branchs
+tic
 for ii = 1:length(log2m_list)
     
     % Reset Random Number Generator
@@ -75,6 +76,7 @@ for ii = 1:length(log2m_list)
     end
 end
 delete(hw)
+toc
 
 % Normalize
 agg_MSE = agg_MSE / ntrials;
@@ -102,6 +104,9 @@ fprintf(1,'%s\n','------------------')
 for kk = 1:length(log2m_list)
     fprintf(1,'%u\t%1.2f\n',log2m_list(kk),mean(G(500:end,kk)))
 end
+
+% Save Results 
+save ICASSP_2022_RESULTS.mat
 
 
 
