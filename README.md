@@ -8,3 +8,4 @@ Abstract: Yule-Simon processes are one of the most commonly occurring natural pr
 
 Keywords: Bayesian filtering, regime switching, real time machine learning, generative model, time series, state estimation, power law
 
+Execute RUN_EXPERIMENT.m to reproduce the results of the paper.
