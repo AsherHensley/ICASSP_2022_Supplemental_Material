@@ -1,1 +1,1 @@
-# Online-Learning-For-Latent-Yule-Simon-Processes
+# Online Learning For Latent Yule Simon Processes
