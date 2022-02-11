@@ -1,4 +1,6 @@
-# ICASSP 2022 Conference Paper Code
+# ICASSP 2022 Supplemental Material
+
+This repository contains all code used for the paper. Execute RUN_EXPERIMENT.m to reproduce all results (takes 3-4 hours).
 
 Title: Online Learning for Latent Yule-Simon Processes
 
@@ -8,4 +10,4 @@ Abstract: Yule-Simon processes are one of the most commonly occurring processes 
 
 Keywords: Bayesian filtering, regime switching, time series, state estimation, power law.
 
-Execute RUN_EXPERIMENT.m to reproduce the results of the paper (takes 3-4 hours)
+
